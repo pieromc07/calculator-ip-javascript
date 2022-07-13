@@ -203,5 +203,5 @@ export const generateDirectionsAvailable = () => {
     // contar cuantos 0 hay en la cadena
     let i = msb.indexOf('0');
     let dipd = msb.length - i;
-    document.getElementById('dipd').value = (Math.pow(2,parseInt(dipd)) - 2);
+    document.getElementById('dipd').value = new Intl.NumberFormat('es-MX').format((Math.pow(2,parseInt(dipd)) - 2));
 }

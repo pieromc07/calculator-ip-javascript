@@ -46,7 +46,8 @@ body{
 
 .box-input-4 input {
     width: 22.33%;
-
+    font-size: 0.9rem;
+    padding: 2px;
     text-align: center;
 }
 
