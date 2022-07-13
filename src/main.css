@@ -1,0 +1,78 @@
+body{
+    /*  escala de celeste claro*/
+    background-color:   #abdefa;
+}
+
+.box {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+}
+
+.box-input-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-input-5,
+.box-input-4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.box-input-1 p,
+.box-input-5 p,
+.box-input-4 p {
+    width: 100%;
+    text-align: center;
+}
+
+.box-input-5 input {
+    width: 16.66%;
+    text-align: center;
+}
+
+.box-input-4 input {
+    width: 22.33%;
+
+    text-align: center;
+}
+
+.box-input-1 input {
+    width: 70%;
+
+    text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+/* responsive lg */
+@media (min-width: 992px) {
+    .box-input-1 input {
+        font-size: 0.9rem;
+        padding: 2px;
+    }
+    .box-input-5 input {
+        font-size: 0.9rem;
+        padding: 2px;
+    }
+    .box-input-4 input {
+        font-size: 0.9rem;
+        padding: 2px;
+    }
+}
